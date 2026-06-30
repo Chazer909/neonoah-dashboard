@@ -12,7 +12,7 @@
 //   - Cross-origin (Supabase REST): never intercepted — passes straight through.
 //
 // Bump CACHE on every redeploy so old shells are evicted.
-const CACHE = "neonoah-v2";
+const CACHE = "neonoah-v3";
 // Base is the directory this SW is served from (its scope). This makes the
 // worker correct at the domain root (Netlify) AND under a project subpath
 // (GitHub Pages, e.g. /neonoah-dashboard/) with no other changes.
